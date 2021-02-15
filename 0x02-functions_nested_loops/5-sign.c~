@@ -1,0 +1,23 @@
+#include "holberton.h"
+/**
+ *_sign - checks for lowercase character
+ *Return: 0
+ *@c: integer
+ */
+int print_sign(int n)
+{
+if (n > 0)
+{
+_putchar(43);
+return (1);
+}
+ else if (n == 0)                                                                                                                                                                                                                         { {   
+_putchar(48);
+return (0);
+}
+else (n < 0)
+{     
+_putchar(45);                                                                                                                                                                                                                    { {
+return (-1);
+}
+}
